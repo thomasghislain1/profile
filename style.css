@@ -1,0 +1,96 @@
+/* Here goes your CSS *//*<body>*/
+body {
+    /* background-image: url('http://lewagon.github.io/html-css-challenges/shared/images/space-odyssey.jpg'); */
+    /*text-align: center;*/
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E8E8E8;
+}
+
+
+
+/*div{
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid black;
+}*/
+
+#profile-pic{
+    border-radius: 50%;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 450px;
+    margin: 10px auto 10px auto;
+}
+
+.card{
+    background-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 500px;
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+
+.btn-red{
+    background-color: #DB4A48;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.btn-red:hover{
+    background-color: #EC5B59;
+}
+
+.list-inline{
+
+}
+
+.list-inline li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h2:hover{
+    color: blue;
+}
+
+.movie{
+    width: 100px;
+}
+
+/*<table>..<img>*/
+table img{
+    border-radius: 20px;
+}
+
+/*<h1> OR <h2> OR <h3> OR...*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*<h1>*/
+h1 {
+    color: red;
+    background-color: #A0B1C3;
+}
+
+/*<h2>*/
+h2{
+    color: green;
+    font-size: 20px;
+    font-family: Arial;
+}
